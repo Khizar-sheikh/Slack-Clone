@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  --slack-color: #3f0f40;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::selection {
+  background-color: #8a618b;
+  color: #3f0f40;
+  padding: 3px;
+}
+.app__body {
+  display: flex;
+}
